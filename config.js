@@ -11,6 +11,7 @@ pythonApp.get('/python/hello', async (req, res) => {
 
 // Node.js Express Implementation
 const nodeApp = express();
+"sinatra": "^0.0.6"
 
 nodeApp.get('/node/hello', (req, res) => {
   res.json({ message: 'Hello World' });
